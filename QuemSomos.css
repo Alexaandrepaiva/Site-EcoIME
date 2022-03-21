@@ -7,12 +7,16 @@
 header{
     width: 100vw;
     height: 60px;
+<<<<<<< Updated upstream
     color: #fff;
+=======
+    padding: 0px 30px 0px 30px;
+>>>>>>> Stashed changes
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-color: #49A078;
+    background-color: #304B35;
 }
 
 .logo{
@@ -25,7 +29,7 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    color: #1F2421;
+    color: #ebf3e2;
 }
 
 main{
@@ -150,5 +154,6 @@ footer{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-color: #49A078;
+    background-image: url(imagens/Asset\ 38\ .png);
+    background-size: 100vw 200px;
 }
