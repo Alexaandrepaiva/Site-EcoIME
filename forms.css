@@ -4,21 +4,28 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+}
+
 header{
     width: 100vw;
     height: 60px;
+    padding: 0px 30px 0px 30px;
     color: #fff;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: #49A078;
 }
 
 .logo{
+    height:55px;
     display: flex;
 }
 .links{
+    width: 30vw;
     padding: 0px 15px;
     font-size:20px;
     font-family: 'Times New Roman';
@@ -31,16 +38,21 @@ header{
 
 main{
     width: 100vw;
+    height: 1300px;
     background-color: #9CC5A1;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 
 .box{
     width: 100vw;
     padding: 5px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .texto{
@@ -65,41 +77,36 @@ main{
     align-items: center;
 }
 
-@media (min-width: 1100px) {
-    main{
-        height:1000px;
-    }
-    .box{
-        height:1000px;
-        display: flex;
-        flex-direction: row;
-        justify-content:space-between;
-        align-items:center;
-    }
-    .texto{
-        width:55vw;
-    }
+.forms{
+    width:65vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 20px;
+    font-family: 'Times New Roman';
 }
 
-@media (max-width: 1100){
-    main{
-        height:15000px;
-    }
-    .box{
-        height:1500px;
-        display: flex;
-        flex-direction: column;
-        justify-content:center;
-        align-items:space-between;
-    }
-    .texto{
-        width:97.5vw;
-    }
+input[type=text]{
+    height: 35px;
+    width:60vw;
+    padding: 5px 15px;
+    font-family: 'Times New Roman';
+    background-color: #f6fff8;
+}
+
+select{
+    height: 35px;
+    width:60vw;
+    padding: 5px 15px;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    background-color: #f6fff8;
 }
 
 footer{
     width: 100vw;
-    height: 60px;
+    height: 200px;
     color: #fff;
     display: flex;
     flex-direction: row;

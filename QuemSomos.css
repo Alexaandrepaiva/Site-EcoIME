@@ -7,19 +7,22 @@
 header{
     width: 100vw;
     height: 60px;
+    padding: 0px 30px 0px 30px;
     color: #fff;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: #49A078;
 }
 
 .logo{
+    height:55px;
     display: flex;
 }
 
 .links{
+    width: 30vw;
     padding: 0px 15px;
     font-size:20px;
     font-family: 'Times New Roman';
@@ -27,6 +30,10 @@ header{
     flex-direction: row;
     justify-content: space-between;
     color: #1F2421;
+}
+
+a{
+    text-decoration: none;
 }
 
 main{
@@ -67,7 +74,7 @@ main{
 .box2{
     width: 100vw;
     padding: 5px 20px;
-    background-color: #49A078;
+    background-color: #CFE1B9;
 }
 
 .box2 h1{
@@ -144,7 +151,7 @@ main{
 
 footer{
     width: 100vw;
-    height: 60px;
+    height: 200px;
     color: #fff;
     display: flex;
     flex-direction: row;
