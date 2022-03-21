@@ -3,3 +3,52 @@
     margin: 0px;
     box-sizing: border-box;
 }
+
+header{
+    width: 100vw;
+    height: 60px;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #678a62;
+}
+
+.logo{
+    display: flex;
+}
+.links{
+    padding: 0px 15px;
+    font-size:20px;
+    font-family: 'Times New Roman';
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: black;
+}
+
+main{
+    width: 100vw;
+    height:1500px;
+    background-color: #b0d4bc;
+}
+
+.box1{
+    width: 95vw;
+    height:490px;
+    padding: 5px 20px;
+    background-color: #678a62
+}
+
+footer{
+    width: 100vw;
+    height: 60px;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #678a62;
+}
