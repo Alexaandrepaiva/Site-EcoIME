@@ -5,7 +5,7 @@
 }
 
 header{
-    width: 100vw;
+    width: 100%;
     height: 60px;
     padding: 0px 30px 0px 30px;
     color: #fff;
@@ -22,7 +22,7 @@ header{
 }
 
 .links{
-    width: 30vw;
+    width: 30%;
     padding: 0px 15px;
     font-size:20px;
     font-family: 'Times New Roman';
@@ -37,7 +37,7 @@ a{
 }
 
 main{
-    width: 100vw;
+    width: 100%;
     background-color: #9CC5A1;
     display: flex;
     flex-direction: column;
@@ -46,7 +46,7 @@ main{
 }
 
 .box1{
-    width: 97.5vw;
+    width: 97.5%;
     padding: 5px 20px;
 }
 
@@ -72,7 +72,7 @@ main{
 }
 
 .box2{
-    width: 100vw;
+    width: 100%;
     padding: 5px 20px;
     background-color: #CFE1B9;
 }
@@ -83,7 +83,7 @@ main{
     font-size: 75px;
 }
 
-@media (min-width: 1100px) {
+@media (min-width: 800px) {
     main{
         height:1500px;
     }
@@ -95,10 +95,10 @@ main{
         align-items:center;
     }
     .titulo{
-        width:40vw;
+        width:40%;
     }
     .texto{
-        width:55vw;
+        width:55%;
     }
     .box2{
         height:480px;
@@ -108,7 +108,7 @@ main{
         align-items:center;
     }
     .imagem{
-        width: 40vw;
+        width: 40%;
         display: flex;
         flex-direction: row;
         justify-content:center;
@@ -116,7 +116,7 @@ main{
     }
 }
 
-@media (max-width: 1100){
+@media (max-width: 800){
     main{
         height:3000px;
     }
@@ -128,10 +128,10 @@ main{
         align-items:space-between;
     }
     .titulo{
-        width:97.5vw;
+        width:97.5%;
     }
     .texto{
-        width:97.5vw;
+        width:97.5%;
     }
     .box2{
         height:990px;
@@ -141,7 +141,7 @@ main{
         align-items:space-between;
     }
     .imagem{
-        width: 97.5vw;
+        width: 97.5%;
         display: flex;
         flex-direction: row;
         justify-content:center;
@@ -150,12 +150,35 @@ main{
 }
 
 footer{
-    width: 100vw;
+    width: 100%;
     height: 200px;
     color: #fff;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+<<<<<<< Updated upstream
     background-color: #49A078;
+=======
+    background-image: url(imagens/Asset\ 38\ .png);
+    background-size: 100% 200px;
+}
+
+.containerfooter1{
+    width: 20vw;
+    height: 130px;
+    font-size:20px;
+    color: #ebf3e2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: justify;
+}
+
+.containerfooter2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: justify;
+>>>>>>> Stashed changes
 }

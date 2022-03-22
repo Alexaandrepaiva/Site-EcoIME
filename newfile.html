@@ -2,26 +2,109 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>ECO IME Racing</title>
+    <link rel="stylesheet" href="HomePage.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
+
 <body>
     <header>
-        <h1>Portifólio</h1>
-        <div class="thing">
-            <div>Quem somos</div>
-            <div>Contato</div>
-            <div>Cultura</div>
+        <div class="logo">
+            <a href="#HomePage">
+                 <img src="imagens/Asset 36 SF.png" alt="LogoECOIME" height="80px">
+            </a>
+        </div>
+
+        <div class="navigation">
+            <input type="checkbox" id="nav-checkbox">
+            <label for="nav-checkbox" class="nav-toggle">
+                <img src="imagens/align-justify.svg" alt="open menu" class="open" height="60px">
+                <img src="imagens/x-circle.svg" alt="close menu" class="close" height="60px">
+            </label>
+            <ul class="nav-menu">
+                <li><a href="QuemSomos.html">Quem Somos</a></li>
+                <li><a href="#">Áreas</a></li>
+                <li><a href="#">Competições</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
         </div>
     </header>
-    <div class="box">
-        <div class="caixa">coisa1</div>
-        <div class="caixa">coosa2</div>
-        <div class="caixa">coisa3</div>
-        <div class="caixa">coisa4</div>
+
+    <div class=hero id="HomePage">
+        <h1>ECO IME RACING</h1>
+        <h3>A iniciativa que construirá o primeiro carro elétrico do IME.</h3>
+        <a href="forms.html">Quero participar!</a>
     </div>
-    <div class="box2"></div>
+
+    <div class="content">
+        <div class="box1">
+            <div class="titulo">
+                <a href="QuemSomos.html">Quem somos</a>
+            </div>
+            <div class="texto">
+                <p>A <strong>ECO IME RACING</strong> é uma iniciativa do Instituto Militar de Engenharia (IME) com o objetivo de construir o primeiro carro elétrico do IME para realizar um projeto inovador no Exército Brasileiro e, com isso, incentivar os futuros alunos desse instituto a aprender e a trabalhar na prática de engenharia de ponta.</p>
+            </div>
+        </div>
+
+        <div class="box2">
+            <div class="texto">
+                <p>Blábláblá</p>
+            </div>
+            <div class="titulo">
+                <a href="#">Áreas</a>
+            </div>
+        </div>
+
+        <div class="box1">
+            <div class="titulo">
+                <a href="#">Competições</a>
+            </div>
+            <div class="texto">
+                <p>Blábláblá</p>
+            </div>
+        </div>
+
+        <div class="box2">
+            <div class="parceiros">
+                <p>Bláblá</p>
+            </div>
+            <div class="titulo">
+                <a href="#">Nossos Parceiros</a>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        $(document).ready(function(){
+            $(window).bind('scroll', function(){
+                var gap = 50;
+                if($(window).scrollTop() > gap){
+                    $('header').addClass('active');
+                } else{
+                    $('header').removeClass('active');
+                }
+            });
+        });
+    </script>
+
+    <footer>
+        <div class="containerfooter1">
+            <p><Strong>Endereço:</Strong> Praça General Tibúrcio, 80 - Urca, Rio de Janeiro - RJ, CEP 22290270</p>
+            <p><strong>E-mail:</strong> ecoime.racing@gmail.com</p>
+        </div>
+        <div class="containerfooter2">
+            <a href="https://www.instagram.com/ecoime.racing/">
+                <img src="imagens/instagram.svg" alt="Instagram" width="25px">
+            </a>
+            <a href="https://www.facebook.com/EcoIMERacing/">
+             <img src="imagens/facebook.svg" alt="Facebook" width="25px">
+             </a>
+            <a href="https://br.linkedin.com/company/eco-ime?trk=public_profile_experience-item_profile-section-card_image-click">
+                <img src="imagens/linkedin.svg" alt="LinkedIn" width="25px">
+            </a>
+
+        </div>
+    </footer>
 </body>
 </html>
