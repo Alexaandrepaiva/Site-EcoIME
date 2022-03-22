@@ -7,11 +7,10 @@
 header{
     width: 100vw;
     height: 60px;
-    color: #1f2421;
     padding: 0px 30px 0px 30px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: #304B35;
 }
@@ -21,6 +20,7 @@ header{
     height: 55px;
 }
 .links{
+    width: 30vw;
     padding: 0px 15px;
     font-size:20px;
     font-family: 'Times New Roman';
@@ -69,7 +69,7 @@ main{
 .box2{
     width: 100vw;
     padding: 5px 20px;
-    background-color: #49A078;
+    background-color: #ebf3e2;
 }
 
 .box2 h1{
@@ -146,12 +146,30 @@ main{
 
 footer{
     width: 100vw;
-    height: 60px;
-    color: #fff;
+    height: 200px;
+    padding: 0px 850px 0px 300px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-image: url(imagens/Asset\ 38\ .png);
     background-size: 100vw 200px;
+}
+
+.containerfooter1{
+    width: 20vw;
+    height: 130px;
+    font-size:20px;
+    color: #ebf3e2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: justify;
+}
+
+.containerfooter2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: justify;
 }
