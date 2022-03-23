@@ -18,6 +18,11 @@ header{
 .logo{
     display: flex;
 }
+.logo:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
 .links{
     width: 45%;
     font-size:24px;

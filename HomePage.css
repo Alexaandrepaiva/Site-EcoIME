@@ -134,6 +134,12 @@ header{
     transition: background-color 0.5 ease;
 }
 
+.logo:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
 .nav-menu li{
     display: inline-block;
 }
@@ -146,7 +152,10 @@ header{
 }
 
 .nav-menu li a:hover{
-    color:#6CAE75
+    color:#6CAE75;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .active{
