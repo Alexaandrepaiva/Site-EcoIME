@@ -5,9 +5,9 @@
 }
 
 header{
-    width: 100vw;
-    height: 60px;
-    padding: 0px 30px 0px 30px;
+    width: 100%;
+    height: 80px;
+    padding: 0px 60px 0px 60px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -17,12 +17,10 @@ header{
 
 .logo{
     display: flex;
-    height: 55px;
 }
 .links{
-    width: 30vw;
-    padding: 0px 15px;
-    font-size:20px;
+    width: 45%;
+    font-size:24px;
     font-family: 'Times New Roman';
     display: flex;
     flex-direction: row;
@@ -31,7 +29,8 @@ header{
 }
 
 main{
-    width: 100vw;
+    width: 100%;
+    height: 1200px;
     background-color: #9CC5A1;
     display: flex;
     flex-direction: column;
@@ -40,12 +39,17 @@ main{
 }
 
 .box1{
-    width: 97.5vw;
-    padding: 5px 20px;
-    border-radius: 20px;
+    width: 100%;
+    height: 400px;
+    padding: 30px 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .titulo{
+    width:40%;
     color: #1F2421;
     font-family:'Lucida handwriting';
     font-size: 75px;
@@ -56,6 +60,7 @@ main{
 }
 
 .texto{
+    width:55%;
     color: #1F2421;
     font-family:'Lucida';
     text-align: justify;
@@ -67,9 +72,15 @@ main{
 }
 
 .box2{
-    width: 100vw;
-    padding: 5px 20px;
+    width: 100%;
+    height: 400px;
+    padding: 30px 60px; 
     background-color: #ebf3e2;
+    height:400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .box2 h1{
@@ -78,98 +89,208 @@ main{
     font-size: 75px;
 }
 
-@media (min-width: 1100px) {
+.imagem{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.box{
+    width: 100%;
+    height:100px;
+    background-color:#9CC5A1;
+}
+
+@media (max-width: 1400px) and (min-width: 800px) {
+    .links{
+        width: 60%;
+        font-size:22px;
+    }
     main{
-        height:1500px;
+        height:auto;
     }
     .box1{
-        height:480px;
+        padding: 20px 0px;
+        height:auto;
         display: flex;
-        flex-direction: row;
-        justify-content:space-between;
-        align-items:center;
+        flex-direction: column;
+        justify-content:center;
+        align-items:space-between;
     }
     .titulo{
-        width:40vw;
+        width:97.5%;
     }
     .texto{
-        width:55vw;
+        width:97.5%;
     }
     .box2{
-        height:480px;
+        padding: 20px 0px;
+        height:auto;
         display: flex;
-        flex-direction: row;
-        justify-content:space-between;
-        align-items:center;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items:space-evenly;
     }
     .imagem{
-        width: 40vw;
+        width: 97.5%;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content:center;
         align-items:center;
+    }
+    .containerfooter1 p{
+        font-size: 0.1px;
+        color:#1F2421
+    }
+    .containerfooter2{
+        display: none;
+        visibility: hidden;
     }
 }
 
-@media (max-width: 1100){
+@media (max-width: 800px) and (min-width: 700px) {
+    .links{
+        width: 60%;
+        font-size:20px;
+    }
     main{
-        height:3000px;
+        height:auto;
     }
     .box1{
-        height:990px;
+        padding: 20px 0px;
+        height:auto;
         display: flex;
         flex-direction: column;
         justify-content:center;
         align-items:space-between;
     }
     .titulo{
-        width:97.5vw;
+        width:97.5%;
     }
     .texto{
-        width:97.5vw;
+        width:97.5%;
     }
     .box2{
-        height:990px;
+        padding: 20px 0px;
+        height:auto;
         display: flex;
-        flex-direction: column;
-        justify-content:column;
-        align-items:space-between;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items:center;
     }
     .imagem{
-        width: 97.5vw;
+        width: 97.5%;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content:center;
         align-items:center;
+    }
+    .containerfooter1 p{
+        font-size: 0.1px;
+        color:#1F2421
+    }
+    .containerfooter2{
+        display: none;
+        visibility: hidden;
+    }
+}
+
+@media (max-width: 700px) and (min-width: 500px) {
+    .links{
+        width: 70%;
+        font-size:15px;
+    }
+    main{
+        height:auto;
+    }
+    .box1{
+        padding: 20px 0px;
+        height:auto;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items:space-between;
+    }
+    .titulo{
+        width:97.5%;
+        font-size: 45px;
+    }
+    .texto{
+        width:97.5%;
+        font-size: 18px;
+    }
+    .box2{
+        padding: 20px 0px;
+        height:auto;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items:center;
+    }
+    .box{
+        display: none;
+        visibility: hidden;
+    }
+    .imagem{
+        width: 97.5%;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items:center;
+    }
+    .imagem h1{
+        font-size: 50px;
+    }
+    #IMEpredio{
+        height:200px;
+    }
+    .containerfooter1 p{
+        font-size: 0.1px;
+        color:#1F2421
+    }
+    .containerfooter2{
+        display: none;
+        visibility: hidden;
     }
 }
 
 footer{
-    width: 100vw;
-    height: 200px;
-    padding: 0px 850px 0px 300px;
+    width: auto;
+    height: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-image: url(imagens/Asset\ 38\ .png);
-    background-size: 100vw 200px;
+}
+
+.rodape{
+    width: 100%;
+    height: auto;
+    position: absolute;
 }
 
 .containerfooter1{
-    width: 20vw;
-    height: 130px;
+    width: 350px;
+    height: auto;
     font-size:20px;
     color: #ebf3e2;
+    margin-left: 275px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: justify;
+    position: absolute;
 }
 
 .containerfooter2{
+    width: auto;
+    height: auto;   
+    margin-left: 220px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: justify;
+    align-items: center;
+    position: absolute;
 }

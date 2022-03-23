@@ -1,27 +1,138 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-'>
+    <title>ECO IME RACING</title>
+    <link rel='stylesheet' href='HomePage.css'>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
+
 <body>
     <header>
-        <h1>Portifólio</h1>
-        <div class="thing">
-            <div>Quem somos</div>
-            <div>Contato</div>
-            <div>Cultura</div>
+        <div class="logo">
+            <a href="#HomePage">
+                <img src="imagens/Asset 36 SF.png" height="80px">
+            </a>
+        </div>
+        <div class="navigation">
+            <input type="checkbox" id="nav-checkbox">
+            <label for="nav-checkbox" class="nav-toggle">
+                <img src="imagens/align-justify.svg" alt="open menu" class="open">
+                <img src="imagens/x-circle.svg" alt="close menu" class="close">
+            </label>
+
+            <ul class="nav-menu">
+                <li><a href="QuemSomos.html">Quem Somos</a></li>
+                <li><a href="Areas.html">Áreas</a></li>
+                <li><a href="Competicoes.html">Competições</a></li>
+                <li><a href="#Footer">Contato</a></li>
+            </ul>
         </div>
     </header>
-    <div class="box">
-        <div class="caixa">coisa1</div>
-        <div class="caixa">coosa2</div>
-        <div class="caixa">coisa3</div>
-        <div class="caixa">coisa4</div>
+
+    <div class="hero" id="HomePage">
+        <h1>ECO IME RACING</h1>
+        <h3>A iniciativa do IME que construirá o primeiro carro elétrico do IME.</h3>
+        <a href="forms.html">Quero Participar!</a>
     </div>
-    <div class="box2"></div>
+
+    <div class="content">
+        <div class="box1">
+            <div class="titulo">
+                <a href="QuemSomos.html">Quem Somos</a> 
+            </div>
+            <div class="texto">
+                <p>A <strong>ECO IME RACING</strong> é uma iniciativa do Instituto Militar de Engenharia (IME) com o objetivo de projetar e produzir o primeiro carro elétrico do IME.</p>
+            </div>
+        </div>
+        <div class="box2">
+            <div class="texto">
+                <p>Para atingir esse objetivo, a iniciativa da <strong>ECO IME RACING</strong> é dividida em quatro áreas. São elas:</p>
+                <div class="icones">
+                    <div class="icones2">
+                    <a href="#">
+                        <img src="imagens/auto.png" class="iconeimagem">
+                        <p>Mecânica</p>
+                    </a></div>
+                    <div class="icones2">
+                    <a href="#">
+                        <img src="imagens/comp.png" class="iconeimagem">
+                        <p>Computação</p></div>
+                    </a>
+                    <div class="icones2">
+                    <a href="#">
+                        <img src="imagens/eletec.png" class="iconeimagem">
+                        <p>Eletrônica</p></div>
+                    </a>
+                    <div class="icones2">
+                    <a href="#">
+                        <img src="imagens/mkt.png" class="iconeimagem">
+                        <p>Marketing</p></div>
+                    </a>
+                </div>
+            </div>
+            <div class="titulo">
+                <a href="Areas.html">Áreas</a> 
+            </div>
+
+        </div>
+        <div class="box1">
+            <div class="titulo">
+                <a href="Competicoes.html">Competições</a> 
+            </div>
+            <div class="texto">
+                <p>Apesar de a iniciativa <strong>ECO IME RACING</strong> ainda não ter concluído a construção do seu primeiro carro elétrico, ela já participou de uma competição (Shell Eco Marathon pelo desafio Road To 2050), vencendo-a. O atual desafio da equipe será terminar o seu primeiro veículo para competir na Shell Eco Marathon de 2022.</p>
+            </div>
+        </div>
+        <div class="box2">
+            <div class="texto">
+                <p>É uma iniciativa</p>
+            </div>
+            <div class="titulo">
+                <a href="#">Parceiros</a> 
+            </div>
+        </div>
+    </div>
+
+        <script>
+            $(document).ready(function () {
+                $(window).bind('scroll', function () {
+                    var gap = 50;
+                    if ($(window).scrollTop() > gap) {
+                        $('header').addClass('active');
+                    } else {
+                        $('header').removeClass('active');
+                    }
+                });
+            });
+        </script>
+
+        <div clas="box">
+        </div>
+        
+        <footer>
+            <img src="imagens/Asset 38 .png" class="rodape" alt="footer">
+           <div class="containerfooter1" id="Footer">
+               <p><Strong>Endereço:</Strong> Praça General Tibúrcio, 80 - Urca, Rio de Janeiro - RJ, CEP 22290270</p>
+               <p><strong>Telefone:</strong> (21) 98932-3782</p>
+               <p><strong>E-mail:</strong> ecoime.racing@gmail.com</p>
+           </div>
+           <div class="containerfooter2">
+            <a href="https://www.instagram.com/ecoime.racing/">
+                <img src="imagens/instagram.svg" alt="Instagram">
+            </a>
+            <a href="https://www.facebook.com/EcoIMERacing/">
+                <img src="imagens/facebook.svg" alt="Facebook">
+            </a>
+            <a
+                href="https://br.linkedin.com/company/eco-ime?trk=public_profile_experience-item_profile-section-card_image-click">
+                <img src="imagens/linkedin.svg" alt="LinkedIn">
+            </a>
+           </div>
+       </footer>
 </body>
+
 </html>
