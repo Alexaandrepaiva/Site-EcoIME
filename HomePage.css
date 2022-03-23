@@ -166,6 +166,24 @@ header{
     color:#F6FFF8 !important;
 }
 
+.patrocinio{
+    width:50%;  
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items:center;
+}
+
+.patrocinio img{
+    width: 20%;
+}
+
+.box{
+    height:30vh;
+    background-color:#9CC5A1;
+}
+
 @media only screen and (max-width: 1000px){
     header{
         display: block;
