@@ -28,29 +28,33 @@
                    <p>Processo Seletivo</p>
                </div>
                <form class="forms">
-                   <label for="nome">Nome completo:</label><br>
+                   <label for="nome" class="letras">Nome completo:</label><br>
                    <input type="text" id="nome"><br><br>
-                   <label for="idade">Idade:</label><br>
+                   <label for="idade" class="letras">Idade:</label><br>
                    <input type="text" id="idade"><br><br>
 
-                   <label for="turma">Selecione sua turma:</label><br>
+                   <label for="turma" class="letras">Selecione sua turma:</label><br>
                    <select id="turma">
-                       <option value="" disabled selected hidden>Turma</option>
+                       <option value="" disabled selected hidden></option>
                        <option value="XXII">XXII</option>
                        <option value="XXIII">XXIII</option>
                        <option value="XXIV">XXIV</option>
                        <option value="XXV">XXV</option>
                        <option value="XXVI">XXVI</option>
-                   </select><br><br>
+                   </select><br>
 
-                   <label for="Ativa">Ativa</label>
-                   <input type="radio" id="Ativa" name="Opção" value="Ativa">
+                   <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" id="Ativa" name="Opção" value="Ativa">
+                        <label class="form-check-label letras" for="Ativa">Ativa</label>
+                   </div>
                    
+                   <div style="margin-left: 1em" class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" id="Reserva" name="Opção" value="Reserva">
+                    <label class="form-check-label letras" for="Reserva">Reserva</label>
+                   </div>
 
-                   <input type="radio" id="Reserva" name="Opção" value="Reserva">
-                   <label for="Reserva">Reserva</label><br><br>
-                   
-                   <label for="turma">Selecione sua Seção de Ensino:</label><br>
+                   <br>
+                   <label for="turma" class="letras">Selecione sua Seção de Ensino:</label><br>
                    <select id="turma">   
                         <option value="" disabled selected hidden></option>
                         <option value="SE/1">SE/1</option>
@@ -62,9 +66,9 @@
                         <option value="SE/7">SE/7</option>
                         <option value="SE/8">SE/8</option>
                         <option value="SE/9">SE/9</option>
-                   </select><br><br>
+                   </select><br>
 
-                   <label for="turma">Selecione a área de interesse:</label><br>
+                   <label for="turma" class="letras">Selecione a área de interesse:</label><br>
                    <select id="turma">   
                         <option value="" disabled selected hidden></option>
                         <option value="Mecânica">Mecânica</option>
@@ -73,18 +77,15 @@
                         <option value="Computação">Computação</option>
                         <option value="Marketing">Marketing</option>
                         <option value="Financeiro">Financeiro</option>
-                   </select><br><br>
+                   </select><br>
 
-                   <label for="email">Digite seu e-mail:</label><br>
+                   <label for="email" class="letras">Digite seu e-mail:</label><br>
                    <input type="text" id="email"><br><br>
 
-                   <label for="interesse">Descrevea brevemente o motivo pelo qual você tem interesse de participar dessa iniciativa:</label><br>
-                   <input type="text" id="interesse"><br><br>
+                   <label for="interesse" class="letras">Diga o motivo de você querer entrar na iniciativa:</label><br>
+                   <input type="text" id="interesse" size="100" maxlength="500" placeholder="No máximo 500 caracteres"><br><br>
 
                    <button type="button" onclick="alert('Inscrição feita com sucesso! Aguarde um email para saber a dada da próxima capacitação da equipe.')">Enviar!</button>
-
-
-
                </form>
            </div>
            <div class="box"></div>
