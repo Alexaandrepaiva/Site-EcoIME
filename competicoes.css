@@ -78,7 +78,7 @@ main{
     background: #ebf3e2;
     color: #1F2421;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 24px;
     border-radius: 5px;
     line-height: 1;
     padding: 10px 18px;
@@ -199,8 +199,29 @@ footer{
         display: none;
         visibility: hidden;
     }
+    .titulo1 h1, .titulo2 h1{
+        font-size: 60px;
+    }
     .txtm p, .txtr p{
+        width: auto;
         font-size: 20px;
+    }
+    .box1, .box2{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: space-evenly;
+        justify-content: center;
+    }
+    .ecomarathon, .rt2050{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: space-evenly;
+        justify-content: center; 
+    }
+    .video{
+        display:none;
     }
     .box{
         width: 100%;
@@ -222,11 +243,29 @@ footer{
         display: none;
         visibility: hidden;
     }
+    .titulo1 h1, .titulo2 h1{
+        font-size: 50px;
+    }
+    .txtm p, .txtr p{
+        width: auto;
+        font-size: 18px;
+    }
     .box1, .box2{
         display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
+        align-items: space-evenly;
         justify-content: center;
-        align-items: center;
+    }
+    .ecomarathon, .rt2050{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: space-evenly;
+        justify-content: center; 
+    }
+    .video{
+        display:none;
     }
     .titulo1, .titulo2{
         width: 100%;
@@ -237,6 +276,8 @@ footer{
         justify-content: center;
         align-items: center;
     }
+    .titulo1 h1, .titulo2 h1{
+        font-size: 50px;
     }
     .txtm p, .txtr p{
         font-size: 16px;
@@ -247,6 +288,7 @@ footer{
         background-color: #ebf3e2;
     }
 }
+
 
 @media (max-width: 700px) and (min-width: 500px) {
     .links{
@@ -261,8 +303,29 @@ footer{
         display: none;
         visibility: hidden;
     }
+    .titulo1 h1, .titulo2 h1{
+        font-size: 35px;
+    }
     .txtm p, .txtr p{
-        font-size: 12px;
+        width: auto;
+        font-size: 14px;
+    }
+    .box1, .box2{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: space-evenly;
+        justify-content: center;
+    }
+    .ecomarathon, .rt2050{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: space-evenly;
+        justify-content: center; 
+    }
+    .video{
+        display:none;
     }
     .box{
         width: 100%;
