@@ -37,7 +37,6 @@ header{
     color: #ebf3e2;
 }
 
-
 main{
     width: 100%;
     height: 1300px;
@@ -45,8 +44,8 @@ main{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-image: url('imagens/Equipe.jpg');
-    background-size: 100%;
+    background-image:  url('imagens/3.png');
+    background-size: auto;
 }
 
 .box{
@@ -75,18 +74,6 @@ main{
     align-items: center;    
 }
 
-.titulo{
-    width: 100%;
-    color: #ebf3e2;
-    font-family:'Lucida handwriting';
-    font-size: 75px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 150px;
-}
-
 .forms{
     width:65%;
     display: flex;
@@ -97,11 +84,6 @@ main{
     font-family: 'Times New Roman';
 }
 
-.box{
-    width: 100%;
-    height:100px;
-    background-color:#9CC5A1;
-}
 
 input[type=text]{
     height: 35px;
@@ -166,7 +148,8 @@ footer{
     position: absolute;
 }
 .letras {
-    color: #ebf3e2;
+    color: #1F2421;
+    font-size: 1em;
 }
 button {
     font-size: 1em;
@@ -180,8 +163,18 @@ button:hover{
     background-color: #304B35;
     color: #ebf3e2;
     border: #304B35;
+}
+
+.titulo{
+    width: 100%;
+    color: #1F2421;
+    font-family:'Lucida handwriting';
+    font-size: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    position: absolute;
+    height: 150px;
 }
 
 @media (max-width: 1400px) and (min-width: 800px) {
@@ -196,6 +189,17 @@ button:hover{
     .containerfooter2{
         display: none;
         visibility: hidden;
+    }
+    .titulo{
+        width: 100%;
+        color: #1F2421;
+        font-family:'Lucida handwriting';
+        font-size: 75px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 150px;
     }
 }
 
@@ -212,9 +216,29 @@ button:hover{
         display: none;
         visibility: hidden;
     }
+    .titulo{
+        width: 100%;
+        color: #ebf3e2;
+        font-family:'Lucida handwriting';
+        font-size: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 150px;
+    }
 }
 
-@media (max-width: 700px) and (min-width: 500px) {
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+@media (max-width: 700px) {
     .links{
         width: 70%;
         font-size:15px;
@@ -226,5 +250,16 @@ button:hover{
     .containerfooter2{
         display: none;
         visibility: hidden;
+    }
+    .titulo{
+        width: 100%;
+        color: #ebf3e2;
+        font-family:'Lucida handwriting';
+        font-size: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 150px;
     }
 }

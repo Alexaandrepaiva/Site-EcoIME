@@ -41,7 +41,7 @@ html{
         font-size: 2em;
         height: 10vh;
         margin-left: 1em;
-        background-color: #3a5a40;
+        background-color: #ebf3e2;
         color: #1F2421;
     }
     .areas {
@@ -119,7 +119,7 @@ html{
         font-size: 2.5em;
         height: 10vh;
         margin-left: 1em;
-        background-color: #3a5a40;
+        background-color: #ebf3e2;
         color: #1F2421;
     }
     .areas {
@@ -402,6 +402,14 @@ html{
     }
 }
 
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
 
 header{
     width: 100%;
@@ -446,6 +454,7 @@ footer{
     width: 100%;
     height: auto;
     position: absolute;
+    margin-bottom: 0;
 }
 
 .containerfooter1{
