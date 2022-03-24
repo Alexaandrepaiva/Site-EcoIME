@@ -131,9 +131,6 @@ main{
         width: 60%;
         font-size:22px;
     }
-    main{
-        height:auto;
-    }
     .box1{
         padding: 20px 15px;
         height:auto;
@@ -240,9 +237,6 @@ main{
     .links{
         width: 70%;
         font-size:15px;
-    }
-    main{
-        height:auto;
     }
     .box1{
         padding: 20px 10px;

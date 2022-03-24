@@ -89,6 +89,22 @@ main{
     color: #ebf3e2;
 }
 
+.txtr a{
+    margin-top: 20px;   
+    background: #9CC5A1;
+    color: #1F2421;
+    text-decoration: none;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    line-height: 1;
+    padding: 10px 18px;
+}
+
+.txtr a:hover{
+    background: #6CAE75;
+    color: #ebf3e2;
+}
+
 .carrinho, .videozinho{
     border-radius: 10px;
 }
