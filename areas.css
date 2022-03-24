@@ -11,6 +11,17 @@
     align-items: center;
 }
 
+.chamada h1{
+    font-family:'Lucida handwriting';
+    font-size: 75px;
+}
+
+.grupos{
+    font-family:'Lucida';
+    font-size:24px;
+}
+
+
 .logo img:hover {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
