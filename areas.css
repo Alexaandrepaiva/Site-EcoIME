@@ -413,8 +413,8 @@ header{
     display: flex;
 }
 .links{
-    width: 45%;
-    font-size:24px;
+    width: 55%;
+    font-size:20px;
     font-family: 'Times New Roman';
     display: flex;
     flex-direction: row;
@@ -465,4 +465,40 @@ footer{
     justify-content: center;
     align-items: center;
     position: absolute;
+}
+
+@media (max-width: 700px) and (min-width: 500px) {
+    .chamada h1{
+        width:97.5%;
+        font-size: 45px;
+    }
+    .grupos{
+        width:97.5%;
+        font-size: 18px;
+    }
+    .nome, .nome1{
+        width:97.5%;
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 1100px) and (min-width: 850px) {
+    .chamada h1{
+        width:97.5%;
+        font-size: 55px;
+    }
+}
+
+@media (max-width: 850px) and (min-width: 700px) {
+    .chamada h1{
+        width:97.5%;
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 680px) {
+    .chamada h1{
+        width:97.5%;
+        font-size: 30px;
+    }
 }
