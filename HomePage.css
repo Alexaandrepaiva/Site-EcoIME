@@ -193,6 +193,15 @@ header{
     background-color:#9CC5A1;
 }
 
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
 @media only screen and (max-width: 1000px){
     header{
         display: block;
