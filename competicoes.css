@@ -174,7 +174,7 @@ footer{
 
 .titulo1 h1, .titulo2 h1 {
     color: #1F2421;
-    font-family:'Lucida handwriting';
+    font-family: 'Ramaraja', serif;
     font-size: 75px;
     display: flex;
     flex-direction: column;
@@ -209,32 +209,33 @@ footer{
         color:#1F2421
     }
     .containerfooter2{
-        display: none;
-        visibility: hidden;
+        width: auto;
+        height: 30px;
+        display: flex;
+        flex-wrap: wrap;
     }
     .titulo1 h1, .titulo2 h1{
         font-size: 60px;
+    }
+    .txtm, .txtr{
+        width:auto;
+        height: auto;
     }
     .txtm p, .txtr p{
         width: auto;
         font-size: 20px;
     }
     .box1, .box2{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-items: space-evenly;
-        justify-content: center;
+        width: 100%;
+        height: auto;
     }
     .ecomarathon, .rt2050{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-items: space-evenly;
-        justify-content: center; 
+        width: 100%;
+        height: auto;
     }
-    .video{
-        display:none;
+    .imagem, .video{
+        width: 30;
+        height: auto;
     }
     .box{
         width: 100%;

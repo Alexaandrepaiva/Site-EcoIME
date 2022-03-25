@@ -65,13 +65,17 @@ main{
 
 .texto{
     color: #1F2421;
-    font-family:'Lucida';
+    font-family:'Times New Roman';
     text-align: justify;
     font-size:24px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;    
+}
+
+.enviar{
+    font-family:'Times New Roman';
 }
 
 .forms{
@@ -149,7 +153,7 @@ footer{
 }
 .letras {
     color: #1F2421;
-    font-size: 1em;
+    font-size: 1.2em;
 }
 button {
     font-size: 1em;
@@ -168,7 +172,7 @@ button:hover{
 .titulo{
     width: 100%;
     color: #1F2421;
-    font-family:'Lucida handwriting';
+    font-family: 'Ramaraja', serif;
     font-size: 75px;
     display: flex;
     flex-direction: column;
@@ -193,7 +197,7 @@ button:hover{
     .titulo{
         width: 100%;
         color: #1F2421;
-        font-family:'Lucida handwriting';
+        font-family: 'Ramaraja', serif;
         font-size: 75px;
         display: flex;
         flex-direction: column;
@@ -219,7 +223,7 @@ button:hover{
     .titulo{
         width: 100%;
         color: #ebf3e2;
-        font-family:'Lucida handwriting';
+        font-family: 'Ramaraja', serif;
         font-size: 60px;
         display: flex;
         flex-direction: column;
@@ -254,7 +258,7 @@ button:hover{
     .titulo{
         width: 100%;
         color: #ebf3e2;
-        font-family:'Lucida handwriting';
+        font-family: 'Ramaraja', serif;
         font-size: 25px;
         display: flex;
         flex-direction: column;

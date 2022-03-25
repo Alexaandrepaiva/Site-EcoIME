@@ -19,6 +19,15 @@ header{
     background-color: #304B35;
 }
 
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
 .logo{
     display: flex;
 }
@@ -60,7 +69,7 @@ main{
 .titulo{
     width:40%;
     color: #1F2421;
-    font-family:'Lucida handwriting';
+    font-family: 'Ramaraja', serif;
     font-size: 75px;
     display: flex;
     flex-direction: column;
@@ -99,7 +108,7 @@ main{
 .texto{
     width:90%;
     color: #1F2421;
-    font-family:'Lucida';
+    font-family:'Times New Roman';
     text-align: justify;
     font-size:24px;
     display: flex;
@@ -121,7 +130,7 @@ main{
 
 .box2 h1{
     color: #1F2421;
-    font-family:'Lucida handwriting';
+    font-family: 'Ramaraja', serif;
     font-size: 75px;
 }
 
@@ -342,6 +351,7 @@ main{
         align-items:center;
     }
     .imagem h1{
+        font-family: 'Ramaraja', serif;
         font-size: 50px;
     }
     #IMEpredio{
