@@ -18,7 +18,7 @@ body{
 }
 
 .hero{
-    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.4)),url("imagens/EquipeEditado.jpg") no-repeat fixed bottom / cover;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.4)),url("/assets/img/EquipeEditado.jpg") no-repeat fixed bottom / cover;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
